@@ -2,7 +2,7 @@
 using namespace std;
 enum day
 {
-    mon,
+    mon, // we can give value to these like mon=10 so it will start increament from here.
     tue,
     wed,
     thru,
@@ -13,7 +13,7 @@ enum day
 int main() // mon has value 0 and rest are in increament way.
 {
     day d; // here day is a data type .
-    d=mon;
-    cout <<tue;
+    d = mon;
+    cout << tue;
     return 0;
 }
