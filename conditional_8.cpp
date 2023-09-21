@@ -25,9 +25,13 @@ int main()
     {
         cout << "Saturday" << endl;
     }
-    else
+    else if(day_num==7)
     {
         cout << "Sunday" << endl;
+    }
+    else 
+    {
+        cout<<"invalid Number"<<endl;
     }
     return 0;
 }
