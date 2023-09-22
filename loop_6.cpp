@@ -8,7 +8,8 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         fact = fact * i;
+        cout<<n<<"X"<<i<<"="<<fact<<endl;
     }
-    cout << "The factorial is:" <<fact<< endl;
+    // cout << "The factorial is:" <<fact<< endl;
     return 0;
 }
