@@ -13,8 +13,10 @@ int main()
     for (j = 0; j < 5; j++)
     {
         if (key == A[j])
-
+        {
             cout << "The searching key index number is:" << j << endl;
+            return 0;
+        }
     }
     cout << "The searching key not found";
     return 0;
