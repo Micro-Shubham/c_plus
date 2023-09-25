@@ -2,12 +2,15 @@
 using namespace std;
 int main()
 {
-    int A[2][3];
-    for(int i=1;i<=6;i++)
+    int A[2][3] = {{2, 4, 5}, {4, 6, 1}};
+    for (int i = 0; i < 2; i++)
     {
-        cout<<A[2][3];
-        cout<<endl;
+        for (int j = 0; j < 3; j++)
+        {
+            cout << A[i][j]<<"\t";
+        }
+        cout << endl;
     }
-    
+
     return 0;
 }
