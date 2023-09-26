@@ -7,7 +7,7 @@ int main()
     for (int i = 0; i < 3; i++)
     {
         cout << *p << endl;
-        p = p + 2;
+        p = p + 2; // this will move two step forward .p store the location of array A.
     }
     return 0;
 }
