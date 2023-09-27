@@ -9,5 +9,5 @@ int main()
     cout << *p << endl;
     p--;
     cout << *p << endl;
-    return 0;
+    return 0 ;
 }
