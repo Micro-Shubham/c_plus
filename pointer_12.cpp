@@ -13,6 +13,7 @@ int main()
     // x left here x denote the address.
     cout << a << endl;
     cout << x << endl;
-    cout << y;
+    cout << y << endl;
+    cout << &x << "  " << &y; // lets print the address of both x and y . it must have same address.
     return 0;
 }
