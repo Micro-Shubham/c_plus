@@ -19,4 +19,4 @@ int main()
     cout << "Min value is :" << min_result << endl;
     return 0;
 }
-// same pointer but different funtion this condition is known as polymorphism. also it term to be funtion over writing.
+// same pointer but different funtion this condition is known as polymorphism. also it term to be funtion over riding.
