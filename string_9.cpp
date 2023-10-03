@@ -5,7 +5,7 @@ int main()
 {
     char s1[20] = "Good ";
     char s2[20] = "Morning";
-    strcat(s1, s2);
+    strcat(s1, s2); // concatenation
     cout << s1 << endl;
     return 0;
 }
