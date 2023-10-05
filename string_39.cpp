@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    string s1 = "Zebra";
-    string s2 = "World";
+    string s1 = "Apple";
+    string s2 = "Mango";
     cout << s1.compare(s2); // compare two string by dictionary.
     return 0;
 }
