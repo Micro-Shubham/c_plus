@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    string str = "hello";
-    cout << str.insert(4, "apple", 2); // insert(index,"char",digit to insert).
+    string str = "How you";
+    cout << str.insert(3, " are",4); // insert(index,"char",digit to insert).
     return 0;
 }
