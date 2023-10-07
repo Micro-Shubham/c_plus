@@ -5,7 +5,8 @@ int value(int x, int y) // formal parameter.
     int temp = x;
     x = y;
     y = temp;
-    return x, y;
+    cout << x << " formal " << y << endl;
+    // here the the value is swaped but not in actual parameter.
 }
 int main()
 {
