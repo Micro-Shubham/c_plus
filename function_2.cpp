@@ -4,7 +4,7 @@ using namespace std;
 int add(int x, int y)
 {
     int c = x + y;
-    return c;
+    return c; // once the function complete its task the space occupied by funtion will be deleted.
 }
 int main()
 {
