@@ -3,7 +3,7 @@ using namespace std;
 int g = 0; // gloabl variable
 int fun()
 {
-    int a = 5; // local variable
+    int a = 5; // local variable 
     g = g + a;
     return g;
 }
