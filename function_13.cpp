@@ -11,7 +11,7 @@ int &fun(int &a)
 int main()
 {
     int x = 10;
-    int y = fun(x);
-    cout << y << endl;
+    fun(x)=25;
+    cout << x<< endl;
     return 0;
 }
