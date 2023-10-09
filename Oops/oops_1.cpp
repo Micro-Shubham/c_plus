@@ -4,6 +4,7 @@ class rectangle
 {
     // public
 public:
+    // data member
     int length, breadth;
     // function member
     int area()
