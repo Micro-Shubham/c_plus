@@ -11,14 +11,21 @@ private:
 public:
     void setLength(int l)
     {
-        length = l;
+        if (l >= 0)
+            length = l;
+        else
+            length = 0;
     }
     void setBreadth(int b)
     {
-        breadth = b;
+        if (b >= 0)
+            breadth = b;
+        else
+            breadth = 0;
     }
     int getLength()
     {
+
         return length;
     }
     int getBreadth()
