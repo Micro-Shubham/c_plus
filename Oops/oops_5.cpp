@@ -16,6 +16,7 @@ public:
         else
             length = 0;
     }
+    // accessor
     void setBreadth(int b)
     {
         if (b >= 0)
@@ -28,6 +29,7 @@ public:
 
         return length;
     }
+    // mutator
     int getBreadth()
     {
         return breadth;
