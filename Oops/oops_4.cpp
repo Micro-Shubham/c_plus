@@ -16,7 +16,7 @@ public:
 };
 int main()
 {
-    // rectanle class is now a stored in heap memory
+    // rectanle object is now declared in heap memory
     rectangle *p = new rectangle();
     // p stored in stack and it will declaring the value of length and breadth value which is stored in heap memory
     p->length = 10;
