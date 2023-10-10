@@ -22,4 +22,5 @@ int main()
     p->length = 10;
     p->breadth = 20;
     cout << "Area is " << p->area();
+    return 0;
 }
