@@ -29,7 +29,7 @@ int main()
 {
     rectangle r1(10, 10);
     cout << "Area " << r1.area() << endl;
-    if (r1.isSquare())
+if (r1.isSquare())
         cout << "yes" << endl;
 }
 // soope resoltuion
